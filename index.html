@@ -1,0 +1,29 @@
+
+<html>
+    <head>
+        <title> PHP CRUD</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+    <body>
+        <php? require_once 'process.php' ?>
+        <div class="Main">
+            <div class="container   d-flex justify-content-center">
+               <form action="process.php" method="POST" class="mt-5 col-md-4">
+                        <div class="form-group">
+                           <label>name</label>
+                           <input type="text" name="name" class="form-control" placeholder="Enter your name">
+                        </div>
+                     
+                        <div class="form-group">
+                           <label>location</label>
+                           <input type="text" name="location" class="form-control" placeholder="Enter your location">
+                        </div>
+
+                        <div class="form-gorup">
+                           <button type="submit"   class="btn btn-primary" name="Save">Save</button> 
+                     </div>
+               </form>
+          </div>  
+       </div>
+    </body>
+</html>
